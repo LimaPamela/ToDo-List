@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Patrick+Hand&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+
+* {
+  font-family: 'Poppins';
+  background-color:#FFF5EE;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+h1 {
+  color: #000000;
+  font-size: 40px;
+}
+
+button {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background-color: #FFFAFA;
+  color: #000000;
+  text-align: center;
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: #000000;
+}
